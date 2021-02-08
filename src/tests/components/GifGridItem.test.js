@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { GifGridItem } from '../../src/components/GifGridItem';
-import { useFetchGifs } from '../../src/hooks/useFetchGifs';
+import { GifGridItem } from '../../components/GifGridItem';
+import { useFetchGifs } from '../../hooks/useFetchGifs';
 
 describe('Pruebas en <GifGridItem />', () => {
     
@@ -20,4 +20,4 @@ describe('Pruebas en <GifGridItem />', () => {
     });
     
 
-})
+});
