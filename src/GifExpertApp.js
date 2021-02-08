@@ -5,7 +5,7 @@ import { GifGrid } from './components/GifGrid';
 //Functional Components
 const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['Apex']);
+    const [categories, setCategories] = useState([]);
 
     return (
         <>

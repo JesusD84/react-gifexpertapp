@@ -21,6 +21,7 @@ export const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={handleSubmit}>
+            <label>Escribe los Gifs a buscar:</label>
             <input
                 type="text"
                 value={ inputValue }
