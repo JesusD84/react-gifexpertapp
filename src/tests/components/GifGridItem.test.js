@@ -1,7 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { GifGridItem } from '../../components/GifGridItem';
-import { useFetchGifs } from '../../hooks/useFetchGifs';
 
 describe('Pruebas en <GifGridItem />', () => {
 
@@ -13,7 +12,6 @@ describe('Pruebas en <GifGridItem />', () => {
     />);
     
     test('debe de mostrar el componente correctamente', () => {
-        
 
         expect(wrapper).toMatchSnapshot();
         
