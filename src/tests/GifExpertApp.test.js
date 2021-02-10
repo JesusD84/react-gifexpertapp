@@ -21,6 +21,4 @@ describe('Pruebas sobre <GifExpertApp />', () => {
 
     });
     
-    
-
 })
